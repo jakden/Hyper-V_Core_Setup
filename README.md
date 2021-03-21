@@ -21,26 +21,26 @@ Run the program of your choosing (Rufus is displayed below) and for each field:
 
 *All other settings can be left with defaults.*
 
-![alt text](/posts/images/P0002/P0002_IMG01.png)
+![alt text](https://github.com/jakden/Hyper-V_Core_Setup/blob/main/images/P0002/P0002_IMG01.png)
 
 Click START to begin the image creation process.  Once this process has completed the word READY will re-appear and the status bar will be green end to end.  Properly eject this drive from your PC by right clicking the drive in File Explorer and clicking Eject.  This will help avoid any data corruption if the drive was still in use.
 
 Insert the drive into the machine you plan to transform into a Hyper-V Core host and boot the device.  You may need to access your device's BIOS settings and alter the boot options in order to have it boot to this drive.  Once you have booted to your flash drive you will be provided with the typical Windows installation prompts.  Select the drive you would like to install this OS on and start the installation process by clicking on Next:
 
-![alt text](/posts/images/P0002/P0002_IMG02.png)
+![alt text](https://github.com/jakden/Hyper-V_Core_Setup/blob/main/images/P0002/P0002_IMG02.png)
 
 ![alt text](/posts/images/P0002/P0002_IMG03.png)
 
 After a few reboots the installation will complete and you will be presented with the prompt below where you will be required to create and confirm the local administrative password for the Administrator account.
 
-![alt text](/posts/images/P0002/P0002_IMG04.png)
+![alt text](https://github.com/jakden/Hyper-V_Core_Setup/blob/main/images/P0002/P0002_IMG04.png)
 
 After you are logged into the system you will be presented with blue command prompt called sconfig.  This prompt will help with configuring some basic settings.  Powershell commands can be used for some more advanced options like noc binding for your network ports but we will stick to the prompt for this tutorial.  If for some reason you loose your prompts you can utilize the CTRL+ALT++END key combination to bring up the task manager which allows you to run another task - cmd.exe and once in the prompt you can type the command below to enter the blue configuration prompt again.
 ```bat
 sconfig
 ```
 <br>
-![alt text](/posts/images/P0002/P0002_IMG05.png)
+![alt text](https://github.com/jakden/Hyper-V_Core_Setup/blob/main/images/P0002/P0002_IMG05.png)
 
 **Some of the suggested settings to quickly get connected remotely and continue the reset of your configuration from you PC:** <br>
 - Set your static IP (#8) <br>
