@@ -1,5 +1,5 @@
-# Setup Hyper-V Core Server Host
-Setup Hyper-V Core as a Server Host
+# Setup Hyper-V Core as a Server Host
+
 
 This post provides instruction on how to deploy a Windows Hyper-V Core host and suggested configuration during setup to provide remote access.
 
