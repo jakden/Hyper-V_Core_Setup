@@ -29,7 +29,7 @@ Insert the drive into the machine you plan to transform into a Hyper-V Core host
 
 ![alt text](https://github.com/jakden/Hyper-V_Core_Setup/blob/main/images/P0002_IMG02.png)
 
-![alt text](/posts/images/P0002/P0002_IMG03.png)
+![alt text](https://github.com/jakden/Hyper-V_Core_Setup/blob/main/images/P0002_IMG03.png)
 
 After a few reboots the installation will complete and you will be presented with the prompt below where you will be required to create and confirm the local administrative password for the Administrator account.
 
