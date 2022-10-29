@@ -39,8 +39,8 @@ After you are logged into the system you will be presented with blue command pro
 ```bat
 sconfig
 ```
-<br>
 ![alt text](https://github.com/jakden/Hyper-V_Core_Setup/blob/main/images/P0002_IMG05.png)
+<br>
 
 **Some of the suggested settings to quickly get connected remotely and continue the reset of your configuration from you PC:** <br>
 - Set your static IP (#8) <br>
